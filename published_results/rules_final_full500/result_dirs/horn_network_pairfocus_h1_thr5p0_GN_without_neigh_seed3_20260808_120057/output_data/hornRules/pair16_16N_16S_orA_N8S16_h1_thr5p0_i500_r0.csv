@@ -1,0 +1,13 @@
+EXTRACTED HORN RULES
+cap_16N=high ---> cong_N_h8=free
+cap_16N=low ---> cong_N_h8=cong
+cap_16S=high ---> cong_S_h16=free
+cap_16S=low ---> cong_S_h16=cong
+cap_1N=high & cap_3S=high & cap_16N=low & cap_25N=low & cap_25S=low & cap_27N=low & cong_N_h8=cong & cong_S_h16=cong & cap_1S=high & cap_2S=high ---> FALSE
+cap_1N=high & cap_3S=high & cap_16N=low & cap_25N=low & cap_25S=low & cap_27N=low & cong_N_h8=cong & cong_S_h16=cong & cap_1S=high & cap_2S=high ---> cong_N_h8=free
+cap_1N=high & cap_3S=high & cap_16N=low & cap_25N=low & cap_25S=low & cap_27N=low & cong_N_h8=cong & cong_S_h16=cong & cap_1S=high & cap_2S=high ---> cong_S_h16=free
+cap_1N=low & cap_3S=low & cap_25N=high & cap_1S=low & cap_27N=low & cap_27S=high & cap_2N=low & cap_2S=low & cap_3N=high ---> FALSE
+cap_1N=low & cap_3S=low & cap_25N=high & cap_1S=low & cap_27N=low & cap_27S=high & cap_2N=low & cap_2S=low & cap_3N=high ---> cong_N_h8=cong
+cap_1N=low & cap_3S=low & cap_25N=high & cap_1S=low & cap_27N=low & cap_27S=high & cap_2N=low & cap_2S=low & cap_3N=high ---> cong_N_h8=free
+cap_1N=low & cap_3S=low & cap_25N=high & cap_1S=low & cap_27N=low & cap_27S=high & cap_2N=low & cap_2S=low & cap_3N=high ---> cong_S_h16=cong
+cap_1N=low & cap_3S=low & cap_25N=high & cap_1S=low & cap_27N=low & cap_27S=high & cap_2N=low & cap_2S=low & cap_3N=high ---> cong_S_h16=free

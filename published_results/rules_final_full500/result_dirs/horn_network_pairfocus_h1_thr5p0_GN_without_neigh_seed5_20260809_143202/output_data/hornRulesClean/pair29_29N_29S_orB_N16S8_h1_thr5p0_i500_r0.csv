@@ -1,0 +1,6 @@
+EXTRACTED CLEAN HORN RULES
+cap_23S=low & cap_30N=high & cap_30S=high & cap_31S=low & cap_19S=high & cap_21N=high & cap_23N=low ---> FALSE
+cap_29N=high ---> cong_N_h16=free
+cap_29N=low ---> cong_N_h16=cong
+cap_29S=high ---> cong_S_h8=free
+cap_29S=low ---> cong_S_h8=cong

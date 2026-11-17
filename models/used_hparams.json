@@ -1,0 +1,69 @@
+{
+  "GN": {
+    "model": "GN",
+    "trial": 3,
+    "hidden_dim": 256,
+    "dropout": 0.0,
+    "lr": 0.0003,
+    "weight_decay": 0.0,
+    "batch_size": 2048,
+    "epochs": 24,
+    "patience": 5,
+    "val_loss": 0.2991113361344967,
+    "seconds": 311.3229269981384,
+    "epochs_run": 24
+  },
+  "GCNII": {
+    "model": "GCNII",
+    "trial": 15,
+    "hidden_dim": 256,
+    "n_layers": 8,
+    "alpha": 0.3,
+    "lamda": 1.0,
+    "dropout": 0.1,
+    "lr": 0.0003,
+    "weight_decay": 1e-06,
+    "batch_size": 2048,
+    "epochs": 32,
+    "patience": 4,
+    "val_loss": 0.3187000529311614,
+    "seconds": 464.6081585884094,
+    "epochs_run": 31
+  },
+  "MLP": {
+    "model": "MLP",
+    "trial": 20,
+    "hidden_dim": 160,
+    "dropout": 0.0,
+    "lr": 0.003,
+    "weight_decay": 1e-05,
+    "batch_size": 512,
+    "epochs": 12,
+    "patience": 3,
+    "val_loss": 0.36532479524612427,
+    "seconds": 4.750842332839966,
+    "epochs_run": 12
+  },
+  "LINREG": {
+    "model": "LINREG",
+    "trial": 18,
+    "lr": 0.003,
+    "weight_decay": 1e-06,
+    "batch_size": 512,
+    "epochs": 12,
+    "patience": 2,
+    "val_loss": 0.689202070236206,
+    "seconds": 0.5310323238372803,
+    "epochs_run": 4
+  },
+  "SIMPLEGNN": {
+    "hidden_dim": 128,
+    "n_layers": 2,
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 512,
+    "epochs": 20,
+    "patience": 3
+  }
+}

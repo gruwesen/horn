@@ -1,0 +1,21 @@
+name: horn-pairfocus-repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.14
+  - jupyterlab=4.4.7
+  - numpy=2.2.6
+  - pandas=2.3.2
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - sympy=1.14.0
+  - matplotlib=3.10.8
+  - tqdm=4.67.1
+  - pip
+  - pip:
+      # CPU wheel; the experiments were run with torch 2.8.0 and the models are small.
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.8.0
+# Versions match the environment used to produce the reported results.
+# torch-geometric is not required: GN and GCNII are implemented with plain
+# torch / torch.sparse in src/run_experiment.py.

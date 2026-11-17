@@ -1,0 +1,4 @@
+EXTRACTED CLEAN HORN RULES
+cap_1N=high & cong_S_h8=free ---> cong_N_h16=free
+cap_1N=low & cong_S_h8=free ---> cong_N_h16=cong
+cong_S_h8=free

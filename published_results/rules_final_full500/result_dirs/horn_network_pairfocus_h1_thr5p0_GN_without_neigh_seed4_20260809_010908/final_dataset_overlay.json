@@ -1,0 +1,13 @@
+{
+  "model": "GN",
+  "seed": "4",
+  "original_result_dir": "results/horn_network_pairfocus_h1_thr5p0_GN_without_neigh_seed4_20260809_010908",
+  "corrected_result_dir": "results/horn_network_pairfocus_h1_thr5p0_GN_without_neigh_seed4_20260813_205056",
+  "affected_pairs_replaced": [
+    16,
+    20,
+    26,
+    27
+  ],
+  "physical_neighbourhood_csv": "results/pairfocus_neighbourhood_adjacency_audit/link_pair_neighbourhood_physical_candidate.csv"
+}

@@ -1,0 +1,5 @@
+EXTRACTED CLEAN HORN RULES
+cap_17S=low & cap_33S=low ---> cong_S_h16=cong
+cap_17S=low & cap_4S=low ---> cong_S_h16=cong
+cap_17S=low & cap_5S=low ---> cong_S_h16=cong
+cap_4N=high & cap_17S=low ---> cong_S_h16=cong

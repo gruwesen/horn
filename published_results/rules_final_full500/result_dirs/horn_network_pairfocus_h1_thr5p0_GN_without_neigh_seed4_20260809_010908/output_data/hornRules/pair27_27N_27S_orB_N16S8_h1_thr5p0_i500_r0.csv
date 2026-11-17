@@ -1,0 +1,7 @@
+EXTRACTED HORN RULES
+cap_16N=low & cap_26N=high & cap_26S=low & cap_27N=low & cap_27S=low & cap_16S=low & cap_28N=high & cap_28S=low & cong_N_h16=free & cap_22S=high ---> FALSE
+cap_16N=low & cap_26N=high & cap_26S=low & cap_27N=low & cap_27S=low & cap_16S=low & cap_28N=high & cap_28S=low & cong_N_h16=free & cap_22S=high ---> cong_N_h16=cong
+cap_16N=low & cap_26N=high & cap_26S=low & cap_27N=low & cap_27S=low & cap_16S=low & cap_28N=high & cap_28S=low & cong_N_h16=free & cap_22S=high ---> cong_S_h8=cong
+cap_16N=low & cap_26N=high & cap_26S=low & cap_27N=low & cap_27S=low & cap_16S=low & cap_28N=high & cap_28S=low & cong_N_h16=free & cap_22S=high ---> cong_S_h8=free
+cap_27N=high ---> cong_N_h16=free
+cap_27S=high ---> cong_S_h8=free

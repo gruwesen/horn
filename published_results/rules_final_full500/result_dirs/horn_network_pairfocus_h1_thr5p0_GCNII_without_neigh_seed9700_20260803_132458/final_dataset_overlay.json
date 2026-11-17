@@ -1,0 +1,13 @@
+{
+  "model": "GCNII",
+  "seed": "9700",
+  "original_result_dir": "results/horn_network_pairfocus_h1_thr5p0_GCNII_without_neigh_seed9700_20260803_132458",
+  "corrected_result_dir": "results/horn_network_pairfocus_h1_thr5p0_GCNII_without_neigh_seed9700_20260813_135741",
+  "affected_pairs_replaced": [
+    16,
+    20,
+    26,
+    27
+  ],
+  "physical_neighbourhood_csv": "results/pairfocus_neighbourhood_adjacency_audit/link_pair_neighbourhood_physical_candidate.csv"
+}
