@@ -16,7 +16,7 @@ models were used extensively as coding aids; see the paper's LLM disclosure.
 ## Folder layout
 
 ```
-pairfocus_reproduction/
+horn/
 ├── environment.yml                     conda environment specification
 ├── LICENSE                             MIT License (see also Third-party work below)
 ├── published_results/                  extracted rules reported in the paper (see below)
